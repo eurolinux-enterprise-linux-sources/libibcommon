@@ -1,0 +1,424 @@
+
+** Version: libibcommon-1.2.0
+
+Sat Dec 13 19:46:15 2008 +0200 Sasha Khapyorsky
+67ef3251a49fca0b0b97a1ec1ec5af4e8ba0edf0
+
+	* management: bump all package versions
+
+** Version: libibcommon-1.1.2
+
+Sun Oct 19 20:53:23 2008 +0200 Sasha Khapyorsky
+6556babd612d54e0cb2a7428099cc7d18d58ae16
+
+	* management/*/configure.in: bump all versions
+
+Wed Oct 8 12:28:44 2008 +0200 Sasha Khapyorsky
+307665fd72c00e1f404d8d921b47c2ec7fe04214
+
+	* management: update Voltaire copyright
+
+Wed Oct 8 12:27:12 2008 +0200 Sasha Khapyorsky
+40d3a48f646e1c52d37f72ba396016f18964da1d
+
+	* management/*/COPYING: update Voltaire copyright years
+
+** Version: libibcommon-1.1.1
+
+Tue Jul 8 07:22:02 2008 +0300 Sasha Khapyorsky
+2f3df5655164d7cca3b8fefdaca40da6c1b47d9e
+
+	* management: bump management versions
+
+Sun Jul 6 23:07:38 2008 +0300 Sasha Khapyorsky
+54de7d74303519cf2bca3089cbeca366ccbfc542
+
+	* management: revert configure.in update configure.in on 'make dist'
+
+Sun Jun 29 05:02:26 2008 +0300 Sasha Khapyorsky
+026ca13eea7842cf207f8a1a6f9ce94c2a6428a4
+
+	* libibcommon: improve snprintf() usage
+
+** Version: libibcommon-1.1.0
+
+Thu Apr 3 20:07:55 2008 +0300 Sasha Khapyorsky
+6fe887c1561bea3d62d54ec7b13259de07bf3e8a
+
+	* management: bump all versions
+
+Mon Feb 11 20:17:54 2008 +0200 Sasha Khapyorsky
+124ab2fefb1dcdfc009ce89634a8f4f489c3a791
+
+	* management: bump versions in master branch
+
+Sun Jan 27 08:01:40 2008 -0800 Hal Rosenstock
+976fb99a31b97aee5cea16ecce6b1bafba137950
+
+	* management: Update License: field in management spec files
+
+Sat Jan 26 22:37:43 2008 +0200 Sasha Khapyorsky
+bcbe8abc9032637089c7ab1080999ec28c9c21e0
+
+	* management/libib*: remove trailing whitespaces
+
+Mon Jan 7 01:40:19 2008 +0200 Sasha Khapyorsky
+c374d319d67bbc77eb885131f5136446dcc51865
+
+	* management/*/Makefile.am: update configure.in version on 'make dist'
+
+Sun Jan 6 21:33:44 2008 +0200 Sasha Khapyorsky
+5a03b648b03235ff3ab311d61e93766d8d6bd924
+
+	* management/*/Makefile.am: fix ChangeLog generation rule
+
+** Version: libibcommon-1.0.7
+
+Thu Jan 3 09:44:46 2008 +0200 Sasha Khapyorsky
+97d199fc80d87dcc57865cbc06755baf9c8265a4
+
+	* management: bump versions
+
+Fri Dec 21 18:32:28 2007 +0200 Sasha Khapyorsky
+0e72223889cf34ad6808792e95d4e660b472a86f
+
+	* manangement: kill __WORDSIZE macro checks
+
+Fri Dec 21 22:20:24 2007 +0200 Sasha Khapyorsky
+d26a98967f33190b814111f59801bb3d62169383
+
+	* libibcommon: fix overflow in debug/log prints
+
+** Version: libibcommon-1.0.6
+
+Tue Nov 6 19:05:34 2007 +0200 Sasha Khapyorsky
+e15d8315b2aea42bbf345560d7dd3f970fecc2b3
+
+	* libibcommon: version 1.0.6
+
+Sun Oct 14 20:11:37 2007 +0200 Sasha Khapyorsky
+a6631765dc920cbecdaf74bc57d35e1a9a45eefa
+
+	* libibcommon,infiniband-diags: move get_build_version() to diags
+
+Sat Oct 13 23:44:40 2007 +0200 Sasha Khapyorsky
+2853c1332af31f9e6f4e7fa3aaf001243c358999
+
+	* libibcommon: remove static _build_version var from common.h
+
+Mon Oct 1 22:01:37 2007 +0200 Sasha Khapyorsky
+0e884de6004763169a1fef9bf0257855e85f573f
+
+	* management/Makefile: remove obsolete .orig Makefile stuff
+
+** Version: libibcommon-1.0.5
+
+Thu Sep 20 18:26:28 2007 +0200 Sasha Khapyorsky
+a55e27e07b5671844060d53b9e7724ca1af70743
+
+	* libibcommon: update version to 1.0.5
+
+Thu Sep 20 18:04:12 2007 +0200 Sasha Khapyorsky
+eda4ed05438c494e4e529441458b46e1c87dbcd3
+
+	* management/*/*.spec.in: change Source field to OFA paths
+
+Wed Sep 19 03:37:03 2007 +0200 Sasha Khapyorsky
+a0364d5bf62bcda019ef3c1c74cd51583fda632d
+
+	* management/*/configure: RELEASE and TARBALL for spec files
+
+Wed Sep 19 03:42:52 2007 +0200 Sasha Khapyorsky
+5abefe48a7553251238b1f8cb123a2a200b4d147
+
+	* management/*/Makefile.am: generate ChangeLog files when distributed
+
+Wed Sep 19 03:28:43 2007 +0200 Sasha Khapyorsky
+08b7f02ea643b45e42534c61f58fae5b3348bb06
+
+	* management/*/Makefile.am: clean dist-hook target
+
+Wed Sep 19 02:00:08 2007 +0200 Sasha Khapyorsky
+07b65d1277d2d4a6ac6240ba5c7c3c691292001c
+
+	* management/*/*.spec.in: don't run autogen.sh
+
+Wed Sep 19 03:00:44 2007 +0200 Sasha Khapyorsky
+40ef7db43d2117456cd6aa9e97f56d5f3a29e1a1
+
+	* management/*/ChangeLog: trivial spacing fixes
+
+Wed Sep 19 02:05:57 2007 +0200 Sasha Khapyorsky
+063ff2ecb12fe0c94e472fad27b8c40371904113
+
+	* management/*/Makefile.am: add autogen.sh script to 'make dist'
+
+Mon Sep 17 20:53:30 2007 +0200 Sasha Khapyorsky
+5a307143f9e6c0a6170d4be76e6d0513fe9d3622
+
+	* opensm and all: fix Source field in spec.in files.
+
+Sat Sep 15 16:09:07 2007 +0300 Sasha Khapyorsky
+ce0bf16185000e1b0bfb8ee986ea68d1bb894da7
+
+	* libibcommon|umad: remove AC_PROG_CXX config check
+
+Thu Aug 2 16:10:19 2007 +0300 Yevgeny Kliteynik
+6d9161ec35df7b517b511322a2827e680f9f5187
+
+	* osm: cosmetics - removing trailing blanks
+
+Mon Jul 9 08:57:45 2007 -0400 Hal Rosenstock
+e335dcbb322e4887cf6033b6665970dc14f65d8c
+
+	* management/libibcommon: Release 1.0.4
+
+Tue Jun 26 16:54:22 2007 -0400 Hal Rosenstock
+ac44c2d4434e3c9e1500b3e3f4388b62932c99c1
+
+	* libibcommon/src/sysfs.c: Change uint to unsigned for strict ANSI
+
+Tue Jun 26 16:12:13 2007 -0400 Hal Rosenstock
+c4e646af4a5927a49de4fd6f0dbe5e40dd5f7a7e
+
+	* management libraries/ChangeLog: Add log entry for MST change for replacing
+
+Tue Jun 26 16:11:02 2007 -0400 Hal Rosenstock
+b1e037be929bc8178671091768a259977b9c1d5b
+
+	* libibcommon/include/infiniband/common.h: Update copyright
+
+Tue Jun 26 16:06:46 2007 -0400 Michael S. Tsirkin
+bdc562d54e9ef3c58e3d31e23f0279089a218b1b
+
+	* management libs: uint -> unsigned replacement
+
+Sat Jun 2 08:41:06 2007 -0400 Hal Rosenstock
+26cccbee67f89706bfda3424d8d2869b00a67485
+
+	* libibcommon/configure.in: Bumped version to 1.0.3 (in sync with ofed_1_2)
+
+Thu May 31 12:33:39 2007 -0400 Hal Rosenstock
+7e1de26737a976d8caed4cc8a777cb8912281e89
+
+	* management/*.spec: Remove *.spec files from management git repo
+
+Thu May 31 11:41:16 2007 -0400 Hal Rosenstock
+f95d24b405eb9da8d9c32b088107aec1fd94acf7
+
+	* management/*.spec: Latest daily versions of .spec files
+
+Mon May 14 13:41:34 2007 -0400 Hal Rosenstock
+48bb6307e904ccfa170131033aa6f936ebdffe9c
+
+	* libibcommon/libibcommon.spec: Cosmetic change
+
+Mon May 14 13:31:05 2007 -0400 Hal Rosenstock
+03e1e509d8fc8cf7667ca04b0c67a11eb35fbad3
+
+	* spec summary changes
+
+Thu Apr 12 16:52:49 2007 -0400 Hal Rosenstock
+f6fd8b0390f5cd16c04fbbeb65d1cdb5e082aa86
+
+	* Diags: Renamed openib-diags to infiniband-diags
+
+Tue Apr 10 08:43:58 2007 -0400 Hal Rosenstock
+2ce4d5d5760f586c2e95492ccca65df8b0b067fa
+
+	* libibcommon/libibcommon.spec.in: Change to Summary
+
+Tue Apr 3 16:47:44 2007 -0400 Doug Ledford
+f0e71cefaac4951bce91878a49e76b9b9ef808ef
+
+	* Version change in spec files
+
+Tue Apr 3 14:12:56 2007 -0400 Doug Ledford
+95b7d8aec7037315af534a23a48ab5400fb20715
+
+	* Oops, cut-n-paste error
+
+Tue Apr 3 13:47:15 2007 -0400 Doug Ledford
+dd0453fc5bb2c60edb4282bcb959a8452bcd1261
+
+	* Automatic check-in of target spec files after version processing
+
+Mon Apr 2 18:43:08 2007 -0400 Doug Ledford
+71387fce8d7cfbac9b0dc16ee372601cadc2dcdd
+
+	* Update all the various spec files
+
+Mon Apr 2 14:51:20 2007 -0400 Doug Ledford
+9627d11337a3c5c843648b4c2f01e5e9b0108482
+
+	* Update spec file for planned automated make dist capability
+
+Mon Apr 2 14:26:00 2007 -0400 Doug Ledford
+463c5c3d7d757c298ad12af8b20666aeb4e1b81d
+
+	* Use the new mailing list name
+
+Mon Apr 2 14:12:03 2007 -0400 Doug Ledford
+ad3dff2db7e8bc6adb355dbfb7b4c4d4fd831964
+
+	* Add %post/%postun scripts
+
+Mon Jan 29 10:03:17 2007 -0500 Hal Rosenstock
+0089af3d5e7faa79b8423e59a41505a71bfad8e1
+
+	* management/libibcommon: Release 1.0.2
+
+Wed Jan 24 09:31:04 2007 -0500 Hal Rosenstock
+e2c07d601822717f183c7e7bffaed37c95520ca4
+
+	* libibcommon/libibcommon.spec.in: Add to doc files
+
+Wed Jan 24 09:19:30 2007 -0500 Hal Rosenstock
+1f08a74b5eda592b137b394c62dc96a435068d09
+
+	* Management libraries: Added AUTHORS and COPYING to libibcommon, libibumad,
+
+Mon Dec 4 11:55:20 2006 -0500 Hal Rosenstock
+34c6f23a0b2eba00bba445a11eb7b23bc804ef0c
+
+	* Remove unneeded $Id$ from the rest of management
+
+Mon Nov 20 12:21:58 2006 +0000 Hal Rosenstock
+0fd741ca1601c9050f35d65d2b7c298a725c3fa2
+
+	* r10126: libibcommon/ChangeLog: Add change log
+
+Mon Nov 20 12:19:26 2006 +0000 Sasha Khapyorsky
+1e95868fa07ba1fd9137c0cd0f0bd69a53c786a3
+
+	* r10125: libibcommon: enable printf() style format strict checking
+
+Thu Nov 2 22:26:03 2006 +0000 Sasha Khapyorsky
+66438eb26becfdf433021addd198d82248470506
+
+	* r10050: management/libib*: Strip trailing whitespace
+
+Mon Oct 16 13:49:19 2006 +0000 Hal Rosenstock
+19c4ee2418bfbc2c54a80cf40459fc6297f4a6ca
+
+	* r9827: management libraries: Added library versioning support (similar to OpenSM
+
+Wed Mar 8 14:10:56 2006 +0000 Hal Rosenstock
+edbde601ec0e501fc5779a76a057c1d66fa7c379
+
+	* r5683: Merge management packaging changes from 1.0 back to trunk
+
+Mon Feb 27 13:31:21 2006 +0000 Hal Rosenstock
+f20d5213a399c484dc14829293d5b1af3a1b66c1
+
+	* r5508: Updated version identifiers for release candidate
+
+Fri Feb 10 15:58:06 2006 +0000 Sasha Khapyorsky
+26eabf1736b65caa3a231cb7a854315500c88eff
+
+	* r5358: management/*/autogen.sh: config dir test and creation
+
+Fri Feb 3 15:18:46 2006 +0000 Hal Rosenstock
+5a3da4bb5eba4f78f9e340beb69ec57c9256445b
+
+	* r5292: In libibcommon, eliminate argv0 from global symbols (in map) 
+
+Fri Jan 20 16:16:37 2006 +0000 Sasha Khapyorsky
+4015639347b5e8c9c6cfadf0b33a914a59028460
+
+	* r5105: userspace/management: ARGBEGIN() -> getopt() conversion for diags
+
+Sun Dec 4 23:04:09 2005 +0000 Michael S. Tsirkin
+7cecac200580119b9a752d87f1fa99f055030c5e
+
+	* r4290: fix make dist for libibcommon
+
+Mon Sep 26 13:03:50 2005 +0000 Hal Rosenstock
+35c556ed02f7079e18d6151ab72c5e0e43fa8fef
+
+	* r3540: Minor changes to diags and management libraries
+
+Fri Sep 2 22:44:03 2005 +0000 Hal Rosenstock
+a9b6a901fcf60f04d177f379c94224109d1a0cf0
+
+	* r3296: In configure.in, calling AC_CHECK_LIB with no parameters
+
+Mon Aug 15 17:16:13 2005 +0000 Hal Rosenstock
+82493518d7dfcc1859e65477658d2584f4a6abd1
+
+	* r3091: Remove special libdir to be in sync with OpenSM build change
+
+Tue May 24 12:59:47 2005 +0000 Hal Rosenstock
+49c65172c578ad71a8cec5dd50c95dd61924317e
+
+	* r2466: Remove config.h.in files which should be generated but not part of tree
+
+Fri May 20 16:22:19 2005 +0000 Hal Rosenstock
+74aef684710968bf9509478531dbaf8d42591ac7
+
+	* r2424: Completing conversion to standard types
+
+Thu May 19 14:42:33 2005 +0000 Michael S. Tsirkin
+405a853a954d6f2bc911d0eca9dffb201ad90fff
+
+	* r2413: Management libraries leak resources (memory, file/directory handles).
+
+Thu May 19 04:13:38 2005 +0000 Bernhard Fischer
+e3855454280e39cc8a1925189a4eb7637ec913f6
+
+	* r2405: commentary typo: s/unsed/unused/g
+
+Wed May 18 21:34:29 2005 +0000 Hal Rosenstock
+e6f43d9c8f86d743525393de32e85cf11384065a
+
+	* r2401: Eliminate almost all non standard integer types
+
+Wed May 18 20:09:03 2005 +0000 Hal Rosenstock
+651cc8c1526ec0d329da02595e3f662b3bc01359
+
+	* r2394: Start converting to use standard types
+
+Wed Mar 16 17:59:26 2005 +0000 Shahar Frank
+d8dede5374b7034eab0063e75fc33f60143d0d9c
+
+	* r2007: add mising header file
+
+Sun Mar 13 16:49:10 2005 +0000 Shahar Frank
+0f03d87479d3446e47b1feeec7d75062424a4c10
+
+	* r1985: add fast hash function
+
+Thu Mar 3 17:37:19 2005 +0000 Shahar Frank
+ffc6045662499f8d15219baf02a131c572748e8c
+
+	* r1953: add time.c
+
+Thu Mar 3 17:11:37 2005 +0000 Shahar Frank
+207b4eadf4f342db193682d3efa636339ab5fbb7
+
+	* r1952: add getcurrenttime()
+
+Sat Jan 29 18:36:29 2005 +0000 Hal Rosenstock
+576dee77724ca4944f472185585ac422a211fc78
+
+	* r1699: Initial cutover to autotools for diags including 
+
+Fri Jan 28 20:49:06 2005 +0000 Hal Rosenstock
+083597947096f25b912da93a0b9c7bd308afd132
+
+	* r1693: Final preparations for autotools switchover for 
+
+Tue Jan 25 23:31:32 2005 +0000 Hal Rosenstock
+aa2365cfde0d1a058bddb106ad24426abe8d04f3
+
+	* r1652: Cleanup undeleted files which were previously moved to src subdirectories
+
+Tue Jan 25 23:17:25 2005 +0000 Hal Rosenstock
+98493c5d16d7a6ecae7e816732d0042cf5dc2b1d
+
+	* r1651: Install public headers in /usr/local/include/infiniband
+
+Tue Jan 25 22:19:06 2005 +0000 Hal Rosenstock
+67598bec2595d4e4e6d57cff5be88980c856bf19
+
+	* r1649: More changes to ready management directory for autotools switchover
